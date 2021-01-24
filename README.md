@@ -2,6 +2,8 @@
 
 This web application helps grasping the most relevant information out of a Twitch chat and is especially useful for mid and large sized chats.
 
+![grasp Screenshot](https://raw.githubusercontent.com/dialogik-tv/grasp/master/screenshot.png)
+
 ## Features
 
 * Automatic relevance detection
@@ -16,6 +18,18 @@ This web application helps grasping the most relevant information out of a Twitc
 * Search messages by username
 
 _<sup>*</sup> currently only available in German language_
+
+## Basic concept
+
+You can manage your (or any) Twitch chat messages in three columns:
+
+1. **Chat:** All chat messages (currently limited to youngest 100 messages for performance reasons, we'll experiment and develop this).
+2. **Grasp:** The above mentioned automatically detected and grasped messages. These can be filtered (using checkboxes or [keyboard shortcuts](#keyboard-shortcuts)).
+3. **Picks:**
+  * Any message you <kbd>Alt</kbd> + <kbd>Left click</kbd> from the Chat or the Grasp column will be added to a picks list.
+  * Messages can be removed from the list using <kbd>Ctrl</kbd> + <kbd>Left click</kbd>.
+
+All messages can be marked read/unread by using <kbd>Left click</kbd>.
 
 ## Use grasp for your own channel
 
