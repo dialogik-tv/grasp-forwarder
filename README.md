@@ -23,17 +23,24 @@ _<sup>*</sup> currently only available in German language_
 
 You can manage your (or any) Twitch chat messages in three columns:
 
-1. **Chat:** All chat messages (currently limited to youngest 100 messages for performance reasons, we'll experiment and develop this).
-2. **Grasp:** The above mentioned automatically detected and grasped messages. These can be filtered (using checkboxes or [keyboard shortcuts](#keyboard-shortcuts)).
-3. **Picks:**
-  * Any message you <kbd>Alt</kbd> + <kbd>Left click</kbd> from the Chat or the Grasp column will be added to a picks list.
-  * Messages can be removed from the list using <kbd>Ctrl</kbd> + <kbd>Left click</kbd>.
+### 1. Chat (left)
+
+All chat messages (currently limited to youngest 100 messages for performance reasons, we'll experiment and develop this).
+
+### 2. Grasp (center)
+
+The above mentioned automatically detected and grasped messages. These can be filtered (using checkboxes or [keyboard shortcuts](#keyboard-shortcuts)).
+
+### 3. Picks (right)
+
+* Any message you <kbd>Alt</kbd> + <kbd>Left click</kbd> from the Chat or the Grasp column will be added to a picks list.
+* Messages can be removed from the list using <kbd>Ctrl</kbd> + <kbd>Left click</kbd>.
 
 All messages can be marked read/unread by using <kbd>Left click</kbd>.
 
 ## Use grasp for your own channel
 
-Simply pass `channel=<your_channel>` to the URL [`https://dialogik-tv.github.io/grasp?channel=<your_channel>`](https://dialogik-tv.github.io/grasp?channel=<your_channel>) and you're ready to go!
+Simply pass `channel=<your_channel>` (without `<` and `>`) to the URL, e.g. [`https://dialogik-tv.github.io/grasp?channel=dialogikTV`](https://dialogik-tv.github.io/grasp?channel=dialogikTV) and you're ready to go!
 
 ## Keyboard shortcuts
 
