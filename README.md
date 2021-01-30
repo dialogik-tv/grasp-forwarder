@@ -1,6 +1,6 @@
 # Grasp the grasp out of your Twitch chat!
 
-This web application helps grasping the most relevant information out of a Twitch chat and is especially useful for mid and large sized chats.
+This web application helps grasping the most relevant information out of a Twitch chat and is especially useful for mid to large sized chats. *This application is an ongoing project, a [perpetual beta](https://en.wikipedia.org/wiki/Perpetual_beta). You can accompany the development of this tool on the [dialogikTV Twitch channel](https://www.twitch.tv/dialogikTV).*
 
 ![grasp Screenshot](https://raw.githubusercontent.com/dialogik-tv/grasp/master/screenshot.png)
 
@@ -9,15 +9,14 @@ This web application helps grasping the most relevant information out of a Twitc
 * Automatic relevance detection
   * Broadcaster @mentions
   * First two messages of each chat user (you don't want to miss new chatters!)
-  * Greeting formulas like "Guten Abend" (German for "good evening")
-  * Shorties like "hi, "hey" or "hello"
+  * Greeting formulas like "good morning", "good evening" etc.
+  * Shorties like "hi", "hey" or "hello"
   * Messages from roles like Mods, Subs oder VIPs
-* Message picking (add/remove to pick list)
-* Mark messages as read/unread – so you know which messages you've already seen/responded to etc.
+* [Message picking](#3-picks-right) (add/remove to pick list)
+* Mark messages as read/unread using <kbd>Left click</kbd> – so you know which messages you've already seen/responded to etc.
 * Userlist with chat message count
 * Search messages by username
-
-_<sup>*</sup> currently only available in German language_
+* [Multi language support](#multi-language-support) (DE/EN/FR/ES/IT)
 
 ## Basic concept
 
@@ -36,11 +35,28 @@ The above mentioned automatically detected and grasped messages. These can be fi
 * Any message you <kbd>Alt</kbd> + <kbd>Left click</kbd> from the Chat or the Grasp column will be added to a picks list.
 * Messages can be removed from the list using <kbd>Ctrl</kbd> + <kbd>Left click</kbd>.
 
-All messages can be marked read/unread by using <kbd>Left click</kbd>.
-
 ## Use grasp for your own channel
 
 Simply pass `channel=<your_channel>` (without `<` and `>`) to the URL, e.g. [`https://dialogik-tv.github.io/grasp?channel=dialogikTV`](https://dialogik-tv.github.io/grasp?channel=dialogikTV) and you're ready to go!
+
+## Multi language support
+
+This application currently supports multiple languages for the shorty and haystack/needle relevance concept (see above). Language data is being organized in [`dialogik-tv/grasp-lang`](https://github.com/dialogik-tv/grasp-lang), you can help improving your desired language pack by contributing to that repository.
+
+The following languages are currently supported:
+
+* `de` – German
+* `en` – English
+* `fr` – French
+* `es` – Spanish
+* `it` – Italian
+
+Language(s) can be set by passing `&lang=<lang1|lang2|...>`. So the URL for the dialogikTV channel using (a) only French (`fr`) or (b) Spanish and Italian (`es|it`) would be
+
+    (a) https://dialogik-tv.github.io/grasp?channel=dialogikTV&lang=fr
+    (b) https://dialogik-tv.github.io/grasp?channel=dialogikTV&lang=es|it
+
+If no lang parameter is passed, `de` is the default lanuage pack.
 
 ## Keyboard shortcuts
 
