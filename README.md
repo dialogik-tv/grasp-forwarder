@@ -15,7 +15,7 @@ This web application helps grasping the most relevant information out of a Twitc
 * [Message picking](#3-picks-right) (add/remove to pick list)
 * Mark messages as read/unread using <kbd>Left click</kbd> – so you know which messages you've already seen/responded to etc.
 * Userlist with chat message count
-* Search messages by username
+* Search messages by username (<kbd>Ctrl</kbd>+<kbd>Left click</kbd> on the search input field to clear user search)
 * [Multi language support](#multi-language-support) (DE/EN/FR/ES/IT)
 
 ## Basic concept
