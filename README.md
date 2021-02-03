@@ -50,6 +50,7 @@ The following languages are currently supported:
 * `fr` – French
 * `es` – Spanish
 * `it` – Italian
+* `pl` – Polish
 
 Language(s) can be set by passing `&lang=<lang1|lang2|...>`. So the URL for the dialogikTV channel using (a) only French (`fr`) or (b) Spanish and Italian (`es|it`) would be
 
