@@ -18,7 +18,7 @@
 
 <table>
     <tr>
-        <td><img src="docs/colors/mod-green.png"></td>
+        <td><img src="https://raw.githubusercontent.com/dialogik-tv/grasp/docs/docs/mod-green.png"></td>
         <td>Moderator</td>
     </tr>
 </table>
