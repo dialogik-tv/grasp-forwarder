@@ -1,8 +1,8 @@
 <table>
     <tr>
-        <td><h3>1. Chat</h3></td>
-        <td><h3>2. Grasp</h3></td>
-        <td><h3>3. Picks</h3></td>
+        <td><strong>1. Chat</strong></td>
+        <td><strong>2. Grasp</strong></td>
+        <td><strong>3. Picks</strong></td>
     </tr>
     <tr>
         <td valign="top">All chat messages (currently limited to youngest 100 messages for performance reasons, we'll experiment and develop this).</td>
