@@ -12,6 +12,7 @@ This web application helps grasping the most relevant information out of a Twitc
   * Greeting formulas like "good morning", "good evening" etc.
   * Shorties like "hi", "hey" or "hello"
   * Messages from roles like Mods, Subs oder VIPs
+  * Reward redemptions (if containing a chat message)
 * [Message picking](#3-picks-right) (add/remove to pick list)
 * Mark messages as read/unread using <kbd>Left click</kbd> – so you know which messages you've already seen/responded to etc.
 * Userlist with chat message count
