@@ -12,6 +12,7 @@ This web application helps grasping the most relevant information out of a Twitc
   * Greeting formulas like "good morning", "good evening" etc.
   * Shorties like "hi", "hey" or "hello"
   * Messages from roles like Mods, Subs oder VIPs
+  * Reward redemptions (if containing a chat message)
 * [Message picking](#3-picks-right) (add/remove to pick list)
 * Mark messages as read/unread using <kbd>Left click</kbd> – so you know which messages you've already seen/responded to etc.
 * Userlist with chat message count
@@ -63,11 +64,11 @@ If no lang parameter is passed, `de` is the default lanuage pack.
 
 ### Toggle filter settings
 
-* <kbd>Ctrl</kbd>+<kbd>M</kbd> – Toggle mods
-* <kbd>Ctrl</kbd>+<kbd>S</kbd> – Toggle subs
-* <kbd>Ctrl</kbd>+<kbd>V</kbd> – Toggle VIPs
+* <kbd>Shift</kbd>+<kbd>M</kbd> – Toggle mods
+* <kbd>Shift</kbd>+<kbd>S</kbd> – Toggle subs
+* <kbd>Shift</kbd>+<kbd>V</kbd> – Toggle VIPs
 * <kbd>M</kbd> – Toggle @mentions
-* <kbd>Ctrl</kbd>+<kbd>H</kbd> – Toggle haystack needles
+* <kbd>Shift</kbd>+<kbd>H</kbd> – Toggle haystack needles
 * <kbd>H</kbd> – Toggle shorties (`h` because they're small haystack needles...)
 
 ### Toggle chat/userlist visibility
