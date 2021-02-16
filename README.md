@@ -38,7 +38,9 @@ The above mentioned automatically detected and grasped messages. These can be fi
 
 ## Use grasp for your own channel
 
-Simply pass `channel=<your_channel>` (without `<` and `>`) to the URL, e.g. [`https://dialogik-tv.github.io/grasp?channel=dialogikTV`](https://dialogik-tv.github.io/grasp?channel=dialogikTV) and you're ready to go!
+Simply pass `channel=<your_channel>` (without `<` and `>`) to the URL, and you're ready to go:
+
+[`https://grasp.dialogik.tv?channel=dialogikTV`](https://grasp.dialogik.tv?channel=dialogikTV)
 
 ## Multi language support
 
@@ -55,8 +57,8 @@ The following languages are currently supported:
 
 Language(s) can be set by passing `&lang=<lang1|lang2|...>`. So the URL for the dialogikTV channel using (a) only French (`fr`) or (b) Spanish and Italian (`es|it`) would be
 
-    (a) https://dialogik-tv.github.io/grasp?channel=dialogikTV&lang=fr
-    (b) https://dialogik-tv.github.io/grasp?channel=dialogikTV&lang=es|it
+    (a) https://grasp.dialogik.tv?channel=dialogikTV&lang=fr
+    (b) https://grasp.dialogik.tv?channel=dialogikTV&lang=es|it
 
 If no lang parameter is passed, `de` is the default lanuage pack.
 
